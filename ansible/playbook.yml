@@ -7,7 +7,7 @@
       copy:
         src: "var/snap/jenkins/4874/workspace/mvnwebapp/target/mvnwebapp.war"
         dest: "/opt/tomcat/webapps/mvnwebapp.war"
-        remote_src: no
+        remote_src: yes
         
     - name: restart tomact
       systemd:
